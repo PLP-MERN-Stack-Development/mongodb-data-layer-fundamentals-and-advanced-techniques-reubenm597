@@ -25,19 +25,21 @@ This project demonstrates MongoDB CRUD operations, aggregation pipelines, and in
 
 ## 📁 Project Structure
 
+
+
 mongodb-data-layer-fundamentals-and-advanced-techniques/
 │
 ├── config/
-│   └── db.js                # MongoDB connection setup
+│   └── db.js                 # MongoDB connection setup
 │
 ├── models/
-│   └── Book.js              # Mongoose schema and model definition
+│   └── Book.js               # Mongoose schema and model definition
 │
-├── insert_books.js          # Inserts sample data into the database
-├── queries.js               # Performs queries, updates, deletions, and aggregations
-├── package.json             # Project dependencies and scripts
-├── .env                     # Environment variables (e.g., MongoDB URI)
-└── README.md                # Project documentation
+├── insert_books.js           # Inserts sample data into MongoDB
+├── queries.js                # Performs queries, updates, deletions, and aggregations
+├── package.json              # Project dependencies and metadata
+└── README.md                 # Project documentation
+
 
 
 
@@ -47,7 +49,7 @@ mongodb-data-layer-fundamentals-and-advanced-techniques/
 1. Clone the repository
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-reubenm597/tree/main
    cd mongodb-data-layer-fundamentals-and-advanced-techniques
    ```
 
