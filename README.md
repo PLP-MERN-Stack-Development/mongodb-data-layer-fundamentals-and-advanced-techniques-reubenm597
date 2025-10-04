@@ -46,26 +46,26 @@ mongodb-data-layer-fundamentals-and-advanced-techniques/
 
 ## ⚙️ Setup & Usage
 
-1. Clone the repository
+**1. Clone the repository**
 
    ```bash
    git clone https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-reubenm597/tree/main
    cd mongodb-data-layer-fundamentals-and-advanced-techniques
    ```
 
-2. Install dependencies
+**2. Install dependencies**
 
    ```bash
    npm install
    ```
 
-3. Create a `.env` file
+**3. Create a `.env` file**
 
    ```bash
    MONGODB_URI=mongodb://localhost:27017/booksdb
    ```
 
-4. Run the script
+**4. Run the script**
 
    ```bash
    node queries.js
@@ -73,7 +73,7 @@ mongodb-data-layer-fundamentals-and-advanced-techniques/
 
 
 
- ✅ Expected Output
+**✅ Expected Output**
 
 The script will:
 
@@ -84,7 +84,7 @@ The script will:
 
 
 
-📘 Author
+**📘 Author:**
 Reuben Mwikya
 PLP-MERN-STUDENT
 
