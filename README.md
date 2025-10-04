@@ -25,45 +25,47 @@ This project demonstrates MongoDB CRUD operations, aggregation pipelines, and in
 
 ## 📁 Project Structure
 
+
+
 mongodb-data-layer-fundamentals-and-advanced-techniques/
 │
 ├── config/
-│   └── db.js                # MongoDB connection setup
+│   └── db.js                 # MongoDB connection setup
 │
 ├── models/
-│   └── Book.js              # Mongoose schema and model definition
+│   └── Book.js               # Mongoose schema and model definition
 │
-├── insert_books.js          # Inserts sample data into the database
-├── queries.js               # Performs queries, updates, deletions, and aggregations
-├── package.json             # Project dependencies and scripts
-├── .env                     # Environment variables (e.g., MongoDB URI)
-└── README.md                # Project documentation
+├── insert_books.js           # Inserts sample data into MongoDB
+├── queries.js                # Performs queries, updates, deletions, and aggregations
+├── package.json              # Project dependencies and metadata
+└── README.md                 # Project documentation
+
 
 
 
 
 ## ⚙️ Setup & Usage
 
-1. Clone the repository
+**1. Clone the repository**
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-reubenm597/tree/main
    cd mongodb-data-layer-fundamentals-and-advanced-techniques
    ```
 
-2. Install dependencies
+**2. Install dependencies**
 
    ```bash
    npm install
    ```
 
-3. Create a `.env` file
+**3. Create a `.env` file**
 
    ```bash
    MONGODB_URI=mongodb://localhost:27017/booksdb
    ```
 
-4. Run the script
+**4. Run the script**
 
    ```bash
    node queries.js
@@ -71,7 +73,7 @@ mongodb-data-layer-fundamentals-and-advanced-techniques/
 
 
 
- ✅ Expected Output
+**✅ Expected Output**
 
 The script will:
 
@@ -82,7 +84,7 @@ The script will:
 
 
 
-📘 Author
+**📘 Author:**
 Reuben Mwikya
 PLP-MERN-STUDENT
 
