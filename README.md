@@ -1,59 +1,89 @@
-# MongoDB Fundamentals - Week 1
+# 📚 MONGODB MERN WEEK 1 ASSIGNMENT
 
-## Setup Instructions
+This project demonstrates MongoDB CRUD operations, aggregation pipelines, and indexing using **Mongoose** in Node.js. It connects to a MongoDB ATLAS database, inserts sample data, performs queries, updates, deletions, and creates indexes for optimized performance.
 
-Before you begin this assignment, please make sure you have the following installed:
+---
 
-1. **MongoDB Community Edition** - [Installation Guide](https://www.mongodb.com/docs/manual/administration/install-community/)
-2. **MongoDB Shell (mongosh)** - This is included with MongoDB Community Edition
-3. **Node.js** - [Download here](https://nodejs.org/)
+## 🚀 Features
 
-### Node.js Package Setup
+ MongoDB connection using Mongoose
+ Sample data insertion (`insertMany`)
+ CRUD operations (Create, Read, Update, Delete)
+ Aggregation pipelines for advanced data analysis
+ Indexing for optimized queries
 
-Once you have Node.js installed, run the following commands in your assignment directory:
+---
 
-```bash
-# Initialize a package.json file
-npm init -y
+## 🛠️ Technologies Used
 
-# Install the MongoDB Node.js driver
-npm install mongodb
-```
+* Node.js
+* Mongoose
+* MongoDB ATLAS
+* dotenv
 
-## Assignment Overview
+---
 
-This week focuses on MongoDB fundamentals including:
-- Creating and connecting to MongoDB databases
-- CRUD operations (Create, Read, Update, Delete)
-- MongoDB queries and filters
-- Aggregation pipelines
-- Indexing for performance
+## 📁 Project Structure
 
-## Submission
+mongodb-data-layer-fundamentals-and-advanced-techniques/
+│
+├── config/
+│   └── db.js                # MongoDB connection setup
+│
+├── models/
+│   └── Book.js              # Mongoose schema and model definition
+│
+├── insert_books.js          # Inserts sample data into the database
+├── queries.js               # Performs queries, updates, deletions, and aggregations
+├── package.json             # Project dependencies and scripts
+├── .env                     # Environment variables (e.g., MongoDB URI)
+└── README.md                # Project documentation
 
-Complete all the exercises in this assignment and push your code to GitHub using the provided GitHub Classroom link.
 
-## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
 
-## Files Included
+## ⚙️ Setup & Usage
 
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
+1. Clone the repository
 
-## Requirements
+   ```bash
+   git clone <repo-url>
+   cd mongodb-data-layer-fundamentals-and-advanced-techniques
+   ```
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
+2. Install dependencies
 
-## Resources
+   ```bash
+   npm install
+   ```
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+3. Create a `.env` file
+
+   ```bash
+   MONGODB_URI=mongodb://localhost:27017/booksdb
+   ```
+
+4. Run the script
+
+   ```bash
+   node queries.js
+   ```
+
+
+
+ ✅ Expected Output
+
+The script will:
+
+ Connect to MongoDB
+ Insert sample books
+ Execute multiple queries and aggregations
+ Log results in the console
+
+
+
+📘 Author
+Reuben Mwikya
+PLP-MERN-STUDENT
+
+
